@@ -1,3 +1,5 @@
+vse v update
+
 sudo apt gcc make perl -y
 
 sudo apt install open ssh server
