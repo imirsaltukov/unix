@@ -1,20 +1,18 @@
-**git config --global user.name EvanBaibakov**
+git config --global user.name EvanBaibakov**
 
-git config --global user.email 8090500@mail.ru
+git config --global user.email <8090500@mail.ru>
 
 git config --global --list
 
 git add file.md  dobavit
 
-git add .    vse izmeneniya repozitoriya
+git add . vse izmeneniya repozitoriya
 
 git commit obyazatelno
 
 git restore file.md otmenit
 
 git diff
-
-89282409322
 
 git log --oneline
 
@@ -42,9 +40,6 @@ izo.png
 
 visklicatelnui znak []kruglue skobki v nih imya faila esli on v papke
 
-vetki sozdanie 
-
-
-
+vetki sozdanie
 
 git push

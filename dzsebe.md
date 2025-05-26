@@ -1,6 +1,6 @@
 ### git swiming
 
-ssh merge 
+ssh merge
 
 two accaunt
 
@@ -11,5 +11,4 @@ dva raza
 
 kod vladimir kalachnikiov 667227Mvm
 
-12344321 
-
+12344321 111
