@@ -1,17 +1,20 @@
-projekt 
+*projekt
  delai novue ochbki
-itak pristupim 
+itak pristupim
  db klient
-	teable1 stol stupeni
-	teable2 mramor sleb raskroi 
-	teable3 izgotovlenie
-	teable4 montagh
-	teable5 infazakaza
+ teable1 stol stupeni
+ teable2 mramor sleb raskroi
+ teable3 izgotovlenie
+ teable4 montagh
+ teable5 infazakaza
 db sklad
-	teable skladBasket
-	teable skladCeh
-	teable skladPartner
+ teable skladBasket
+ teable skladCeh
+ teable skladPartner
 
 db zakupka
-	teadleInstrument
-		
+ teadleInstrument
+
+ furmiruem teh zadenie по гиту
+1 первое как 
+  
