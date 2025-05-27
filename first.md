@@ -2,7 +2,7 @@
 
 git config --global user.name "EvanBaibakov"
 
-git config --global user.email 8090500@mail.ru
+git config --global user.email <8090500@mail.ru>
 
 git init /  Инициализация проекта
 
@@ -17,10 +17,10 @@ git diff  // просмотр изменений и комитов в коман
 git log / просмотр файлов
 git log  --all --oneline --graph
 
-git log --graph 
+git log --graph
 
 git checkout "номер комита"
-git checkout "переключение на ветку" /   
+git checkout "переключение на ветку" /
 
 * курсив * ggg
 
@@ -78,7 +78,7 @@ git pull reaqwest
 
 переключили на ветку три
  git fetich
-git checkout / проверка веткипше 
+git checkout / проверка веткипше
 
 git monesiman limesiman
 git checkout / проверка веткипше  limanese
@@ -90,4 +90,10 @@ git checkout / проверка веткипше  limanese
             git merge ?
             git pull request
             git push
- 
+ подгрузка файла в проект
+
+ git remote add main <https://github.com/EvanBaibakov/gikweb.git>
+
+git branch -M main
+
+git push -u origin main

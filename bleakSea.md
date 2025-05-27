@@ -15,6 +15,5 @@ db sklad
 db zakupka
  teadleInstrument
 
- furmiruem teh zadenie по гиту
-1 первое как 
-  
+ 1 тех задание в проджекте на результат 
+
