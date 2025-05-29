@@ -1,28 +1,38 @@
 
-                                                      *lekciya 1 ssh
- Komaidu
+* lekciya 1 ssh
+   ● Управление процессами:
+        ○ fork() – создание нового процесса клонированием
+        ○ exec() – запуск программы
+        ○ exit() – завершение программы
+   ● Управление файлами:
+        ○ open() – открыть файл
+        ○ read() – прочитать данные из файла
+        ○ write() – записать данные в файл
+        ○ close() – закрыть файл
+
+
 *  id mc ps
-sudo apt install mc (mind nait komander)
-sudo up update обновили до решений команды
-контрл аль т запуск терминала
-ctrl o jnrhsnm  
-f9 perekluchenie
-sudo apt install openssh-server
-Подключаем сетьевой адаптер
-192.168.1.108
-inet 192.168.1.108/24 brd 192.168.1.255
-ip a
-systemctl status ssh команда прадназначенная для проверки статусов
-ssh kiber@ адресс сетьевого айпиыы aaa второй вариант
-ssh -p 8022 порт хоста db@localhost
-Сетьевые режимы VirtualBox
-Most(bridge) - BM в локальной сети, прямой доступ к BM по IP
-NAT -BM в своей сети, доступ к машине только через проброс портов
-Установка гостевых дополнений виртуальной машины в Убунту
+   sudo apt install mc (mind nait komander)
+   sudo up update обновили до решений команды
+   контрл аль т запуск терминала
+   ctrl o jnrhsnm  
+   f9 perekluchenie
+   sudo apt install openssh-server
+   Подключаем сетьевой адаптер
+   192.168.1.108
+   inet 192.168.1.108/24 brd 192.168.1.255
+   ip a
+   systemctl status ssh команда прадназначенная для проверки статусов
+   ssh kiber@ адресс сетьевого айпиыы aaa второй вариант
+   ssh -p 8022 порт хоста db@localhost
+   Сетьевые режимы VirtualBox
+   Most(bridge) - BM в локальной сети, прямой доступ к BM по IP
+   NAT -BM в своей сети, доступ к машине только через проброс портов
+ Установка гостевых дополнений виртуальной машины в Убунту
   sudo apt update - обновить список пакетов
   sudo apt install perl gcc make     -установить пакеты
   Запуск установки
-                                                           *lekciya 2
+  * lekciya 2
 kiber@kiber:~$()
 ~ tekushii katalog ~ v nachem sluchae domachnii
 $ eto obuchnui tip polzovatelya
@@ -136,7 +146,7 @@ proveryaem ll potom - ls-ali
 
 
 
-                                                            *seminar
+ *seminar
 
 sudo apt instell gcc make perl
 -y togda bez voprosov
