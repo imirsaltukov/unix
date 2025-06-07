@@ -15,6 +15,7 @@ git restore file.md otmenit
 git diff
 
 git log --oneline
+git log --graph
 
 git checkout kommit dalee mogno sozdat novuu vetku dla perehoda on etoi versii
 
@@ -28,18 +29,17 @@ git add -h eto spravka po komande
 
 git merge donar  nahodyas na mastere mergim donar
 
-git log --graph
-
-i chto
-
-izo.png
-
-izo.png
+i chto izo.png
 
 /home/kiber/projects/gitlearn/izo.png
 
 visklicatelnui znak []kruglue skobki v nih imya faila esli on v papke
 
-vetki sozdanie
+git bra
 
 git push
+
+git config --global user.name "EvanBaibakov"
+
+git config --global user.email <8090500@mail.ru>
+cat .git/config
