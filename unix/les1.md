@@ -1,5 +1,5 @@
 
-* lekciya 1 ssh
+# lekciya 1 ssh
    ● Управление процессами:
         ○ fork() – создание нового процесса клонированием
         ○ exec() – запуск программы
@@ -10,60 +10,70 @@
         ○ write() – записать данные в файл
         ○ close() – закрыть файл
 
-
-*  id mc ps
-   sudo apt install mc (mind nait komander)
-   sudo up update обновили до решений команды
-   контрл аль т запуск терминала
-   ctrl o jnrhsnm  
-   f9 perekluchenie
-   sudo apt install openssh-server
-   Подключаем сетьевой адаптер
-   192.168.1.108
-   inet 192.168.1.108/24 brd 192.168.1.255
-   ip a
-   systemctl status ssh команда прадназначенная для проверки статусов
-   ssh kiber@ адресс сетьевого айпиыы aaa второй вариант
-   ssh -p 8022 порт хоста db@localhost
-   Сетьевые режимы VirtualBox
-   Most(bridge) - BM в локальной сети, прямой доступ к BM по IP
-   NAT -BM в своей сети, доступ к машине только через проброс портов
- Установка гостевых дополнений виртуальной машины в Убунту
+ ###  id mc ps
+    - sudo apt install mc (mind nait komander)
+    - sudo up update обновили до решений команды
+    - контрл аль т запуск терминала
+    - ctrl o jnrhsnm  
+    - f9 perekluchenie
+    - sudo apt install openssh-server
+    + Подключаем сетьевой адаптер
+      192.168.1.108
+    + inet 192.168.1.108/24 brd 192.168.1.255
+    + ip a
+    + systemctl status ssh команда прадназначенная для проверки статусов
+    + ssh kiber@ адресс сетьевого айпиыы aaa второй вариант
+    + ssh -p 8022 порт хоста db@localhost
+ ### Сетьевые режимы VirtualBox
+    - Most(bridge) - BM в локальной сети, прямой доступ к BM по IP
+    - NAT -BM в своей сети, доступ к машине только через проброс портов
+    - Установка гостевых дополнений виртуальной машины в Убунту
   sudo apt update - обновить список пакетов
   sudo apt install perl gcc make     -установить пакеты
   Запуск установки
-  * lekciya 2
-    Работа с файлами: ls, pwd, cd, mkdir, cp, rm, mv, touch, cat
+  # lekciya 2
+     - Работа с файлами: ls, pwd, cd, mkdir, cp, rm, mv, touch, cat
+     - sudo su  #super polzovatel, vuxod exit
+     - kiber@kiber:~$()
+     - ~ tekushii katalog ~ v nachem sluchae domachnii
+     - $ eto obuchnui tip polzovatelya
+     - #  superpolzovatel
 
-    sudo su  #super polzovatel vuxod exit
-
-kiber@kiber:~$()
-~ tekushii katalog ~ v nachem sluchae domachnii
-$ eto obuchnui tip polzovatelya
-#   superpolzovatel
-    sudo su -vhod v direkturiu superpolzovatelya
-
+  
 /home/ {user} -sam za sebya govorit
 /etc (nastroiki sistemu)
-cd cd/  cd ~ perehod v domachnii katalog
+cd   home katalog
+cd / koren
+cd ~ perehod v domachnii katalog
 exit
 ls -alhi - spisok failov
+katalogi .katolog - skrutue
+  ## MetaDannue
+
+|        tip           | ls | mc|
+|----------------------|----|---|
+|obuchnuiFail          | -  |net|
+|direktoriya           | d  | / |
+|blochnoe ustroistvo   | b  | + |
+|Simvolnoe ustroistvo  | c  | - |
+|Unix-socet            | s  | = |
+|imenovanui kanal      | p  | | |
+|simvolichekaya ssulka | |  |@ ~|
+
 /dev -ustroistva
 /proc - processu i sostoyaniya os
-  *   /proc/cpuinfo -processor
-285228
-
-
-      /proc/version -versia os
+/proc/cpuinfo -processor 285228
+/proc/version -versia os
 /sys - informacia o sisteme
 /run - vremennue failu sostoyaniya
-
-cat cpuinfo -raspechatat katalog
+  ## Komandu
+     cat cpuinfo -raspechatat katalog
      ls - a skratue failu
      ls -al vse parametru
      ls -help
      ll -psevdonim
      man ls
+     ls -- help
 pwd - tekychaya direktoriya udobno vusuvat direktoriu
 mkdir - sozdanie kataloga
   mkdir -p 1/2/3/4/5 sozdanie katalogov
@@ -88,10 +98,10 @@ cat - vuvod faila, skleika, sozdanie
   vuhod ctrl D
 sozdanie absolutnogo puti
   cd /home/glagol
-
-cd ../..
-
-!otkrutue voprosu dla ponimaniya
+  cd ../..
+  cd ~/test vuhod v domachnii katalog
+  
+   ## !otkrutue voprosu dla ponimaniya
 Otnositelnue ssulki i absolutnue
 geskie ssulki  inod - ideksnui diskriptor
 
