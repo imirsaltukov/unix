@@ -195,7 +195,7 @@ git init # инициируем гит в этой папке
 touch readme.md # создаем файл readme.md
 git add readme.md # делаем этот файл отслеживаемым
 git commit -m "Первый коммит" # создаем первый коммит с вменяемым названием
-git remote add origin git@github.com:nicothin/test.git # добавляем предварительно созданный пустой удаленный репозиторий
+git remote add origin git@github.com:EvanBaibakov/unix.git # добавляем предварительно созданный пустой удаленный репозиторий
 git push origin master # отправляем данные из локального репозитория в удаленный (в ветку master)
 ```
 

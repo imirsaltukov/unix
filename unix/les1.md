@@ -33,6 +33,10 @@
   sudo apt install perl gcc make     -установить пакеты
   Запуск установки
   * lekciya 2
+    Работа с файлами: ls, pwd, cd, mkdir, cp, rm, mv, touch, cat
+
+    sudo su  #super polzovatel vuxod exit
+
 kiber@kiber:~$()
 ~ tekushii katalog ~ v nachem sluchae domachnii
 $ eto obuchnui tip polzovatelya
